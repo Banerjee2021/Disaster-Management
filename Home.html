@@ -9,12 +9,13 @@
   <style>
     * {
       background-color: black;
+      color: white;
     }
     html {
       height: 10000px;
     }
     body {
-      position: fixed;
+      position: relative;
     }
     a:hover {
       color: brown;
@@ -23,6 +24,27 @@
       padding: 10px 10px;
       font-size: 24px;
       text-decoration: none;
+    }
+    h2 {
+      text-indent: 10%;
+      word-spacing: 20px;
+    }
+    img {
+      height: 25%;
+      width: 25%;
+    }
+    p {
+      text-indent: 10%;
+    }
+    table,
+    tr,
+    th,
+    td {
+      border: 1px solid black;
+      border-color: white;
+    }
+    .learn {
+      font-size: medium;
     }
     .con {
       /* background-color: blanchedalmond; */
@@ -34,6 +56,9 @@
       word-spacing: 400px;
       color: white;
     }
+    span {
+      color: orangered;
+    }
   </style>
   <body>
     <div class="con">
@@ -42,5 +67,91 @@
       <a href="/Services.html" target="_blank">Services</a>
       <a href="/About.html" target="_blank">About</a>
     </div>
+    <br /><br /><br /><br /><br /><br /><br />
+    <h2>
+      <span>H</span>ow <span>N</span>atural <span>D</span>isasters
+      <span>H</span>as <span>A</span>ffected <span>U</span>s
+    </h2>
+    <br />
+
+    <p>
+      <span>F</span>loods, cyclones, heat waves and droughts have made Orissa
+      the disaster capital of India.Regular occurrences of flood, drought,
+      cyclones, and heat waves, occasional occurrences of hailstorm, whirlwind,
+      tornado, and landslide and the consequent loss of lives and properties is
+      a constant phenomenon in the state of Odisha.
+    </p>
+    <br />
+    <p class="learn"><i> to learn more click on the respective images.</i></p>
+    <table style="width: 100%">
+      <tr>
+        <th>Disasters</th>
+        <th>Description</th>
+        <th>Year</th>
+        <th>Loss</th>
+      </tr>
+      <tr>
+        <td>
+          <a
+            href="https://en.wikipedia.org/wiki/1999_Odisha_cyclone"
+            target="_blank"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Cyclone_05B.jpg"
+              alt=""
+          /></a>
+        </td>
+        <td>1999 Odisha cyclone</td>
+        <td>1999</td>
+        <td>
+          <b> Fatalities:</b> 9,887 <b>Damage:</b> $4.44 billion (1999 USD)
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a
+            href="https://en.wikipedia.org/wiki/1971_Odisha_cyclone"
+            target="_blank"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/b/b0/BayOfBengalTCOct2919710802UTCESSA9.png"
+              alt=""
+          /></a>
+        </td>
+        <td>1971 Odisha cyclone</td>
+        <td>1971</td>
+        <td>11,000 deaths</td>
+      </tr>
+      <tr>
+        <td>
+          <a
+            href="https://en.wikipedia.org/wiki/1982_North_Indian_Ocean_cyclone_season#Extremely_Severe_Cyclonic_Storm_BOB_02"
+            target="_blank"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/6/63/02B_Jun_3_1982_1200Z.png?20210407153233"
+              alt=""
+          /></a>
+        </td>
+        <td>1981 North Indian Ocean cyclone</td>
+        <td>1982</td>
+        <td>150 deaths</td>
+      </tr>
+      <tr>
+        <td>
+          <a
+            href="https://en.wikipedia.org/wiki/1989_North_Indian_Ocean_cyclone_season#Severe_Cyclonic_Storm_BOB_01"
+            target="_blank"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/0/01/01B_May_26_1989_1343Z.png"
+              alt=""
+          /></a>
+        </td>
+        <td>Severe Cyclonic Storm BOB 01</td>
+        <td>1989</td>
+        <td>1,785 deaths</td>
+      </tr>
+    </table>
   </body>
 </html>
